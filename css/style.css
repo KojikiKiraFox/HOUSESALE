@@ -350,9 +350,6 @@ button{
     padding: 120px 0 110px;
 }
 
-.ideas__items{
-    justify-content: center;
-}
 
 .ideas-title{
     margin-left: 15px;
@@ -369,7 +366,7 @@ button{
 }
 
 .ideas__item-img{
-    max-width: 293px;
+    max-width: 285px;
     max-height: 406px;
 }
 
