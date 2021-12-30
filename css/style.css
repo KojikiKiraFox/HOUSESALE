@@ -169,7 +169,67 @@ button{
     font-size: 23px;
     line-height: 27px;
 }
+/* hero */
 /* header */
+
+/* example */
+
+.example{
+    padding: 70px 0 100px;
+}
+
+.example__items{
+    display: flex;
+}
+
+.example__item{
+    max-width: 400px;
+    max-height: 550px;
+    background-color: #FFf;
+}
+
+.example__item:hover{
+    background-color: #C38F07;
+}
+
+.example__items-link:not(:last-child){
+    margin-right: 20px;
+
+}
+
+
+
+.example__item-img{
+    max-width: 400;
+    max-height: 415px;
+    width: 100%;
+}
+
+.example__item-bottom{
+    padding: 25px;
+    align-items: center;
+    display: flex; 
+}
+
+.example__item-text{
+    text-align: right;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;    
+    background: url(../img/example/04.svg);
+    background-repeat: no-repeat;
+    padding: 10px 0 15px 50px;
+}
+
+.example__item-text:hover{
+    background: url(../img/example/05.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+/* example */
 
 /* why */
 
